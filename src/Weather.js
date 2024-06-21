@@ -15,7 +15,7 @@ export default function WeatherSearch() {
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
-      icon: `http://openweathermap.org/img/wn/${response.data.weather.icon}@2x.png`,
+      icon: "http://openweathermap.org/img/wn/${response.data.main.icon}@2x.png",
       description: response.data.weather.description,
     });
   }
@@ -56,7 +56,7 @@ export default function WeatherSearch() {
           <li>Humidity: {weather.humidity}%</li>
           <li>Wind: {weather.wind}km/h</li>
           <li>
-            <img src={weather.icon} alt={weather.description} />
+            <img src={weather.icon} alt="weather.description" />
           </li>
         </ul>
       </div>
