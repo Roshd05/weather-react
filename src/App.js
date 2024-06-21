@@ -2,14 +2,15 @@ import React from "react";
 import Weather from "./Weather";
 
 import "./App.css";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Weather Homework</h1>
-       <Weather  city="Paris" />
+        <Weather  />
       </header>
+      <Footer />
     </div>
   );
 }
