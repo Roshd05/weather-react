@@ -12,7 +12,7 @@
 .Weather li {
   font-size: 16px;
   font-weight: 100;
-  line-height: 20px;
+  line-height: 30px;
   list-style: none;
 }
 
@@ -22,14 +22,13 @@
   font-size: 64px;
   line-height: 64px;
   font-weight: 400;
-  text-align: right;
 }
 
 .search-form-input {
   background-color: rgb(204, 227, 246);
   border: none;
   border-radius: 16px;
-  width: 70%;
+  width: 60%;
   font-size: 16px;
   padding: 15px 20px;
 }
@@ -46,7 +45,6 @@
   padding: 15px 30px;
   border: none;
   font-size: 16px;
-  margin-left: 5px;
   border-radius: 6px;
   color: rgb(16, 15, 15);
 }
